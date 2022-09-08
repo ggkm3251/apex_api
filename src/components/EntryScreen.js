@@ -8,7 +8,7 @@ const EntryScreen = () => {
        {entries.map((entry, index)=>
          <div key={index}>
             <p><strong>API: </strong>{entry.API}</p>
-            <p><strong>Description:</strong>{defineSuccess(entry.Description)}</p>
+            <p><strong>Description:</strong>{defineDescription(entry.Description)}</p>
             <p><strong>Link:</strong> {entry.Link}</p>
             <p><strong>Category:</strong> {entry.Category}</p>
             <p><strong>Developer:</strong>{entry.developer.developer_name}</p>
