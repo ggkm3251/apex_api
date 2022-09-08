@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CreateEntry = () => {
+const EntryScreen = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const CreateEntry = () => {
   )
 }
 
-export default CreateEntry
+export default EntryScreen
