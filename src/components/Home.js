@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div>
       <h1>Developer Api Entries</h1>
-          <Developers handleNewCompany={handleNewDeveloper} deleteDeveloper={deleteDeveloper} allCompanies={allDevelopers}/>
+          <Developers handleNewDeveloper={handleNewDeveloper} deleteDeveloper={deleteDeveloper} allDevelopers={allDevelopers}/>
           <EntryScreen allDevelopers={allDevelopers}/>
     </div>
   )
