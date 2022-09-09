@@ -1,4 +1,6 @@
 import React from 'react'
+import { useState } from "react"
+import { useEffect } from "react"
 import CreateEntry from './CreateEntry'
 
 const EntryScreen = ({allDevelopers}) => {
@@ -12,7 +14,7 @@ const EntryScreen = ({allDevelopers}) => {
     },[])
 
     function deleteEntry({id}){
-        setLaunches(entries.filter(entry => entry.id !== id))
+        setEntries(entries.filter(entry => entry.id !== id))
         fetch(`http://localhost:9292/entries/${id}`,{
             method: 'DELETE'
         })
@@ -34,7 +36,7 @@ const EntryScreen = ({allDevelopers}) => {
             <p><strong>Link:</strong> {entry.Link}</p>
             <p><strong>Category:</strong> {entry.Category}</p>
             <p><strong>Developer:</strong>{entry.developer.developer_name}</p>
-            <button onClick={()=>deleteLaunch(entry)}>Delete API</button>
+            <button onClick={()=>deleteEntry(entry)}>Delete API</button>
             <hr></hr>
          </div> 
        )}
