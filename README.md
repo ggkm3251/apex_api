@@ -34,3 +34,10 @@ $ Make changes where need be.
 
 ## How it works
 Clients can get access to  large number of list containing APIs links that they can use in their projects.
+ 
+## Contacts
+If you have any questions, comments or correctional advice, feel free to contact me:
+- Github: [@ggkm3251](https://github.com/ggkm3251)
+- Email: (glennkamau2@gmail.com)
+- LinkedIn: [@GLENN MWANGI](https://www.linkedin.com/in/glenn-mwangi-a52b52218/)
+- Twitter: [@Glenn Kamau](https://twitter.com/GlennKamau)
