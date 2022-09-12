@@ -1,3 +1,18 @@
+## APEX_API
+Apex is a website application that allows developers to create, delete and read a list of APIs thatcan be used to get the data from various APIs sources.
+
+## Table of Contents
+* [Project Name](#Project)
+* [Author](#Author)
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [How it Works](#instructions)
+* [Contact information](#contacts)
+
+## Project Name
+Apex_API
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
