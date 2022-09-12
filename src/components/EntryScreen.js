@@ -25,7 +25,7 @@ const EntryScreen = ({allDevelopers}) => {
     function addEntry(newEntry){ 
         setEntries([...entries, newEntry])
     }
-
+    console.log(entries)
   return (
     <div>
       <CreateEntry addEntry={addEntry} allDevelopers={allDevelopers}/>
@@ -35,7 +35,7 @@ const EntryScreen = ({allDevelopers}) => {
             <p><strong>Description:</strong>{entry.Description}</p>
             <p><strong>Link:</strong> {entry.Link}</p>
             <p><strong>Category:</strong> {entry.Category}</p>
-            <p><strong>Developer:</strong>{entry.developer.developer_name}</p>
+            
             <button onClick={()=>deleteEntry(entry)}>Delete API</button>
             <hr></hr>
          </div> 
