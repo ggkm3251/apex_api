@@ -1,5 +1,5 @@
 ## APEX_API
-Apex is a website application that allows developers to create, delete and read a list of APIs thatcan be used to get the data from various APIs sources.
+Apex is a website application that allows developers to create, delete and read a list of APIs that can be used to get the data from various APIs sources.
 
 ## Table of Contents
 * [Project Name](#Project)
@@ -12,6 +12,25 @@ Apex is a website application that allows developers to create, delete and read 
 
 ## Project Name
 Apex_API
+
+## Authors
+Glenn Mwangi
+
+## General info/Project Description
+Website application that allows developers to create, delete and read a list of APIs thatcan be used to get the data from various APIs sources.
+
+## Technologies
+Project is created with :
+* React
+
+## Setup
+To run this program:
+
+```
+$ Fork the repository from my git hub.
+$ Run the code from VS Code.
+$ Make changes where need 
+```
 
 # Getting Started with Create React App
 
@@ -53,6 +72,9 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## How it works
+Clients can get access to  large number of list containing APIs links that they can use in their projects.
 
 ## Learn More
 
