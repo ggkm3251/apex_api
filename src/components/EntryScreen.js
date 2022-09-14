@@ -22,6 +22,7 @@ const EntryScreen = ({allDevelopers}) => {
             .then()
     }
     
+
     function addEntry(newEntry){ 
         setEntries([...entries, newEntry])
     }
